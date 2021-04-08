@@ -19,21 +19,28 @@
 
 <?php
 
-/* Lession 3, print out stuff
+/* Lesson 3, print out stuff
 
     echo "Hi there! ";   //echo is faster than print
     print "Github ";
     echo 7;             //prints out the number. No Quotationsmarks needed
     echo 10 + 5;        //Simple Math functions.
 */
-/* Lession 4, Variables 
+/* Lesson 4, Variables 
     $name = "Kyrugaa ";         //Create Variable
     echo $name;                 //Print out Variable
     $name = $_GET['person'];    //Variable name is now equal to the input "person"
     echo $name." is busy";      //Combine Variable with String
 */
+/*Lesson 5, Functions
+    echo strlen("Hi Lorem");            //Prints out how many letter/ (Function)strlen = String lenght
+    echo str_word_count("Hi Lorem");    //Prints out the number of Words
+    echo strrev("Hi Lorem");            //Prints out text backwards (meroL iH)
+    echo strpos("Hi Lorem", "Hi");      //Prints out the position of Hi (0)
+    echo str_replace("Lorem", "ipsum", "Hi Lorem"); //Replaces the word Lorem with the word ipsum
+*/
 
-
+   
 
 ?>
     
