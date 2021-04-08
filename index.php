@@ -39,6 +39,12 @@
     echo strpos("Hi Lorem", "Hi");      //Prints out the position of Hi (0)
     echo str_replace("Lorem", "ipsum", "Hi Lorem"); //Replaces the word Lorem with the word ipsum
 */
+/* Lesson 6, Different Datatypes
+    //Array
+    $name = array("Lorem","Ipsum","Lorem2");    //Create Array
+    echo $name['1']; 
+*/
+ 
 
    
 
