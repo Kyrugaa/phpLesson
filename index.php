@@ -130,6 +130,28 @@
 
 
 
+/* Lesson 14 Switch Statements
+
+    $x = 1;                             // Variable x with Value 1
+
+    switch ($x){                        // Initialize switch statement, checks $x 
+        case 1:                         
+            echo "Answer is 1";
+        break;
+        case 2:
+            echo "Answer is 2";
+        break;
+        case 3:
+            echo "Answer is 3";
+        break;
+        case 4:
+            echo "Answer is 4";
+        break;
+        default:                        // If there is no case true, it jumps to the default option with the default function
+            echo "No Answer";
+    }
+*/
+
 
 ?>
     
