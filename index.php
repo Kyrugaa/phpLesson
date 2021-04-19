@@ -112,7 +112,24 @@
     }
 */
 
-   
+
+/* Lesson 13 Various Conditional Statements
+
+    $x = 2;                             // Variable x with Value 1
+
+    if ($x == 1){                       // Condition asks if Variable x is equal to 1
+        echo "something";               // Prints out something
+    } 
+    elseif($x == 2){                    // if the if Statement is not true, but the elseif Statement is true, it returns another thing
+        echo "another thing";           
+    }
+    else{                               // if the Condition something else then the if Statement or the elseif Statement, it runs the else Statement
+        echo "something else";          // Prints out something else
+    }
+*/
+
+
+
 
 ?>
     
