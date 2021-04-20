@@ -155,7 +155,7 @@
 
 
 /* Lesson 17-20 Loops
-*/  
+ 
     $x = 1;                             // Variable x with a Value of 1
      //while loop
     while($x < 5){                      // Initialize a while loop with its condition
@@ -178,9 +178,16 @@
 
     //foreach loop
     $array = array("Max", "Dev", "Doni", "Dj");
-    foreach($array as $loopdata){
+    foreach($array as $loopdata){                   // Just 'loops out' the in the array stored data. No infinit loop possible.
         echo "Obey Member ".$loopdata."<br>";
     }
+*/ 
+
+
+/*Lesson 21 Arrays */
+    $array = array("Max", "Dev", "Doni", "Dj");
+
+    echo $array[0];                                 // Prints out the first data in the Array.
 
 ?>
     
