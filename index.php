@@ -153,6 +153,35 @@
 */
 
 
+
+/* Lesson 17-20 Loops
+*/  
+    $x = 1;                             // Variable x with a Value of 1
+     //while loop
+    while($x < 5){                      // Initialize a while loop with its condition
+        echo "Hi, wake up!<br>";        // Prints out the String with a html <br> for a new line
+        $x++;                           // Adds +1 to Variable x
+    }
+
+    //do while loop
+    $y = 1;
+    do{                                 // Runs the function once. No matter if the while condition is true
+        echo "Hi there<br>";
+        $y++;
+    }
+    while($y <=5);
+
+    //for loop
+    for($i = 0; $i <= 9; $i++){         // Initialize a Variable i, which is addet by 1 until the condition is done.
+        echo "hi<br>";                  // As long as the condition $i<=9, this will be echoing out
+    }
+
+    //foreach loop
+    $array = array("Max", "Dev", "Doni", "Dj");
+    foreach($array as $loopdata){
+        echo "Obey Member ".$loopdata."<br>";
+    }
+
 ?>
     
 </body>
