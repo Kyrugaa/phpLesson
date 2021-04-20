@@ -207,7 +207,6 @@
 */
 
 
-/* Lesson 23 Include Documents */
 
 ?>
     
