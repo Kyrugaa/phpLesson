@@ -29,6 +29,7 @@
         $result1 = $_GET['num1'];
         $result2 = $_GET['num2'];
         $operator = $_GET['operator'];
+
         switch($operator){
             case None:
                 echo "No operator selected";
