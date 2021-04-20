@@ -184,10 +184,30 @@
 */ 
 
 
-/*Lesson 21 Arrays */
+/* Lesson 21 Arrays 
+
     $array = array("Max", "Dev", "Doni", "Dj");
 
     echo $array[0];                                 // Prints out the first data in the Array.
+*/
+
+
+/* Lesson 22 Functions 
+
+    $x = 100;                                           // Variable x with Value 100
+
+    function newCalc($x){                               // Creats a function named newCalc
+        $newNum = $x * 0.75;
+        echo "Here is 75% of what you wrote: ".$newNum."<br>";
+    }
+    newCalc($x);
+
+    $y = 1000;
+    newCalc($y);
+*/
+
+
+/* Lesson 23 Include Documents */
 
 ?>
     
